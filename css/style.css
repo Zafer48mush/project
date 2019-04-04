@@ -1,0 +1,169 @@
+ .buttonclass a:hover{
+  border: 1px solid #007bff ;
+  border-radius: 20px;
+  background-color: transparent;
+}
+nav a:hover{
+  text-decoration: none;
+  color: blue;
+}
+span img{
+  max-width: 40px;
+margin-top: -42px;
+}
+.container .p-4+hr{
+  width: 94%;
+    display: block;
+    color: black;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border: 1px solid #000;
+}
+.ownername+ hr, .subheading+hr{
+  width: 94%;
+  color: black;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  border-style: inset;
+  border-width: 1px;
+  border: 1px dashed #000;
+}
+.container h4{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.how-section2 .subheading{
+    color: blue;
+    font-size: 30px;
+    padding: 5px;
+}
+.subheading span{
+  color: black;
+}
+.container button{
+  width: 85%;
+background-color: #007BEA;
+margin-left: -8px;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+}
+.social-icons .fab {
+	font-size: 1em;
+}
+.social-icons .fab {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+}
+.social-icons .fa-facebook-f,.social-icons .fa-google-plus-g,.social-icons .fa-twitter{background-color:#08113c;}
+hr{
+  width:70rem;
+  box-shadow: 1px 1px 3px grey;
+}
+ul{
+list-style-type: none;
+padding-left: 30px;
+}
+.funding{
+  margin-left: -10%;
+}
+.form-control{
+  border: 1px solid #9595d2;
+}
+div > textarea{
+  resize: none;
+}
+#question{
+  margin: 18px;
+}
+.backquestion{
+  background-color: aliceblue;
+  padding: 21px;
+  margin-left: 20px;
+  max-width: 48%;
+  margin-bottom: 10%;
+}
+.backquestion h4{
+  color: blue;
+  font-size: 28px;
+}
+.backquestion p{
+  font-size: 18px;
+  margin-left: 20px;
+}
+footer + hr{
+  box-shadow: 1px 1px 0px grey;
+}
+@media screen and (max-width: 600px) {
+  #question{
+    margin-left: 40px;
+  }
+  footer{
+    margin-left: 20px;
+  }
+  .container hr{
+    width: 100%;
+  }
+  footer +hr{
+    width: 100%;
+  }
+}
+
+
+ .searchbar{
+   margin-bottom: auto;
+   margin-top: auto;
+   height: 50px;
+   background-color: #ddd;
+   border-radius: 30px;
+   padding: 5px;
+
+ }
+ .search_input{
+   border: 0;
+   outline: 0;
+   background: none;
+   width: 0;
+   caret-color:transparent;
+   line-height: 40px;
+   transition: width 0.4s linear;
+   font-size: 20px;
+ }
+ .searchbar:hover > .search_input{
+   padding: 0 10px;
+   width: 250px;
+   caret-color:black;
+   transition: width 0.4s linear;
+ }
+ .searchbar:hover > .search_icon{
+   background: #ddd;
+   color: gray;
+   border: 0px;
+   text-decoration: none;
+ }
+ .search_icon{
+   border: 0px;
+   height: 40px;
+   width: 40px;
+   float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: gray;
+   font-size: 22px;
+ }
